@@ -46,14 +46,14 @@ export default function Testimonials() {
   );
 
   return (
-    <section className="px-6 md:px-28 py-12">
+    <section className="bg-black ;px-6 md:px-28 py-12">
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start mb-12">
-        <p className="font-poppins text-3xl md:text-5xl font-semibold flex items-center gap-4 md:gap-10">
+        <p className="font-poppins text-3xl text-white md:text-5xl font-semibold flex items-center gap-4 md:gap-10">
           <Star width={70} rotate={270} />
           Hear What Others Say!
         </p>
         <p className="text-lg md:text-xl font-poppins text-slate-300 text-center md:text-left mt-4 md:mt-0">
-          "Voices of Impact: Real Stories, Real Success!"
+          
         </p>
       </div>
 

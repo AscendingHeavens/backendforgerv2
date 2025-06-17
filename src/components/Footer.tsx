@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
           <a href="/" className="flex items-center space-x-3">
             {/* Add your logo image src below */}
-            <Image src="/logo.svg" alt="Logo" width={32} height={32} />
-            <span className="text-2xl font-semibold whitespace-nowrap">Flowbite</span>
+            <Image src="/whitebg.png" alt="Logo" width={300} height={300} />
+            <span className="text-2xl font-semibold whitespace-nowrap"></span>
           </a>
 
           <ul className="flex flex-wrap justify-center sm:justify-end gap-4 text-sm font-medium">
@@ -31,7 +31,7 @@ const Footer = () => {
         <hr className="my-6 border-gray-700" />
 
         <p className="text-center text-xs sm:text-sm">
-          © 2023 <a href="https://flowbite.com" className="hover:underline">Flowbite™</a>. All rights reserved.
+          © 2023 <a href="https://ascending-heavens.com" className="hover:underline">Ascending Heavens</a>. All rights reserved.
         </p>
       </div>
     </footer>

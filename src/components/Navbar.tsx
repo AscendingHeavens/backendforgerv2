@@ -32,7 +32,8 @@ const Navbar = () => {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="primary">Book a call</NavbarButton>
+            <NavbarButton  href="https://github.com"
+  variant="primary">Github</NavbarButton>
           </div>
         </NavBody>
 

@@ -253,6 +253,9 @@ export const NavbarButton = ({
   children,
   className,
   variant = "primary",
+  imageSrc,
+  imageAlt = "icon",
+  imageClassName,
   ...props
 }: {
   href?: string;
@@ -260,6 +263,9 @@ export const NavbarButton = ({
   children: React.ReactNode;
   className?: string;
   variant?: "primary" | "secondary" | "dark" | "gradient";
+  imageSrc?: string;
+  imageAlt?: string;
+  imageClassName?: string;
 } & (
   | React.ComponentPropsWithoutRef<"a">
   | React.ComponentPropsWithoutRef<"button">
@@ -277,11 +283,18 @@ export const NavbarButton = ({
   };
 
   return (
-    <Tag
-      href={href || undefined}
+      <Tag
+      href={href}
       className={cn(baseStyles, variantStyles[variant], className)}
       {...props}
     >
+      {imageSrc && (
+        <img
+          src={imageSrc}
+          alt={imageAlt}
+          className={cn("w-5 h-5", imageClassName)}
+        />
+      )}
       {children}
     </Tag>
   );

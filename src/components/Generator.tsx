@@ -11,19 +11,19 @@ const Generator = () => {
   {
     title: "Go",
     button: "Explore more",
-    src: "https://images.unsplash.com/photo-1494806812796-244fe51b774d?...",
+    src: "/go.png",
     link: "/generator/go",
   },
   {
     title: "Node",
     button: "Explore more",
-    src: "https://images.unsplash.com/photo-1518710843675-2540dd79065c?...",
+    src: "/node.jpg",
     link: "/generator/nodejs",
   },
   {
     title: "Python",
     button: "Explore more",
-    src: "https://images.unsplash.com/photo-1590041794748-2d8eb73a571c?...",
+    src: "/python.jpeg",
     link: "/generator/python",
   },
 ];

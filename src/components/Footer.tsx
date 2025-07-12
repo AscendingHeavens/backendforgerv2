@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-black rounded-lg shadow-sm text-white">
+    <div className="bg-black rounded-lg shadow-sm text-white">
       <div className="max-w-screen-xl mx-auto py-6 sm:py-8">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
           <a href="/" className="flex items-center space-x-3">
@@ -34,7 +34,7 @@ const Footer = () => {
           © 2023 <a href="https://ascending-heavens.com" className="hover:underline">Ascending Heavens</a>. All rights reserved.
         </p>
       </div>
-    </footer>
+    </div>
   );
 };
 

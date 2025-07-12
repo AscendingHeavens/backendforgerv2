@@ -32,8 +32,12 @@ const Navbar = () => {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton  href="https://github.com"
-  variant="primary">Github</NavbarButton>
+            <NavbarButton 
+              href="https://github.com"
+              variant="primary"
+            >
+              Github
+            </NavbarButton>
           </div>
         </NavBody>
 
@@ -56,25 +60,19 @@ const Navbar = () => {
                 key={`mobile-link-${idx}`}
                 href={item.link}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="relative text-white block"
+                className="relative text-white hover:text-gray-300 transition-colors duration-200 block py-3 text-lg font-medium border-b border-gray-700 last:border-b-0"
               >
                 {item.name}
               </Link>
             ))}
-            <div className="flex w-full flex-col gap-4 mt-4">
+            <div className="flex w-full flex-col gap-4 mt-6 pt-4 border-t border-gray-700">
               <NavbarButton
-                onClick={() => setIsMobileMenuOpen(false)}
+                href="https://github.com"
                 variant="primary"
-                className="w-full"
-              >
-                Login
-              </NavbarButton>
-              <NavbarButton
+                className="w-full justify-center"
                 onClick={() => setIsMobileMenuOpen(false)}
-                variant="primary"
-                className="w-full"
               >
-                Book a call
+                Github
               </NavbarButton>
             </div>
           </MobileNavMenu>

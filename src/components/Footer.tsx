@@ -2,6 +2,9 @@ import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
+  const whatsappNumber = "+919152783125";
+  const whatsappLink = `https://wa.me/${whatsappNumber}`;
+
   return (
     <div className="bg-black rounded-lg shadow-sm text-white">
       <div className="max-w-screen-xl mx-auto py-6 sm:py-8">
@@ -23,7 +26,15 @@ const Footer = () => {
               <a href="#" className="hover:underline">Licensing</a>
             </li>
             <li>
-              <a href="#" className="hover:underline">Contact</a>
+              <a 
+                href={whatsappLink} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:underline flex items-center gap-1"
+              >
+                Contact
+       
+              </a>
             </li>
           </ul>
         </div>

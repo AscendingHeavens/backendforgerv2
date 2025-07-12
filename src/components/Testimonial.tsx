@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import TestimonialCard from "./TestimonialCard";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import Star from "./Star";
-import { AnimatePresence, motion } from "motion/react";
+import { AnimatePresence, motion } from "framer-motion";
+
 
 export default function Testimonials() {
   const testimonials = [

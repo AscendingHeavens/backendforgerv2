@@ -16,7 +16,6 @@ export default function TestimonialCard({ data }: TestimonialCardProps) {
     exit: { opacity: 0 },
     transition: {
       duration: 0.3,
-      ease: "easeInOut", // Add easing
     },
   };
 

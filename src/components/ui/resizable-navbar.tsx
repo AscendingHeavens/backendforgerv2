@@ -244,7 +244,7 @@ export const NavbarLogo = () => {
         height={200}
         className="h-8 w-auto"
       />
-      <span className="font-medium text-white">BackendForger</span>
+     
     </a>
   );
 };

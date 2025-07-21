@@ -26,13 +26,14 @@ const Downloads = () => {
 
       <Collapse title="Windows Installer">
         <a
-          href="https://backendforger.s3.ap-south-1.amazonaws.com/BackendforgerInstaller/backendforger_installer.exe"
+          href="https://ap-south-1.console.aws.amazon.com/s3/buckets/backend-forger?region=ap-south-1&bucketType=general&prefix=BackendforgerInstaller/"
           className="text-blue-600 underline hover:text-blue-800"
         >
           Download for Windows
         </a>
       </Collapse>
 
+      {/*
       <Collapse title="MAC Installer">
         <Collapse title="PKG Installer">
           <Collapse title="PKG for MacOS AMD64">
@@ -56,6 +57,7 @@ const Downloads = () => {
       <Collapse title="Docker Command">
         <p className="text-gray-700">docker pull backendforger:latest</p>
       </Collapse>
+      */}
     </div>
   );
 };

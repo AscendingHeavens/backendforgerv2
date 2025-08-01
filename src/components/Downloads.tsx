@@ -26,7 +26,7 @@ const Downloads = () => {
 
       <Collapse title="Windows Installer">
         <a
-          href="https://ap-south-1.console.aws.amazon.com/s3/buckets/backend-forger?region=ap-south-1&bucketType=general&prefix=BackendforgerInstaller/"
+          href="https://backend-forger.s3.ap-south-1.amazonaws.com/BackendforgerInstaller/backendforger_installer.exe"
           className="text-blue-600 underline hover:text-blue-800"
         >
           Download for Windows
